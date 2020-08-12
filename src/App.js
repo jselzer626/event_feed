@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { Modal, Image, Container } from 'semantic-ui-react'
 import logo from './logo.svg';
 import tests from './tests.json';
 import './App.css';
@@ -7,6 +6,7 @@ import 'English' from './images/English.png';
 import 'Math' from './images/Math.png';
 import 'Science' from './images/Science.png';
 
+// is there going to be some sort of login / persistent user data for this?
 
 function App() {
 
@@ -17,13 +17,65 @@ function App() {
   //can be adapted for mobile or desktop view
   // this is how many will display for each category
   const [displayChunk, setDisplayChunk] = useState(2)
-  //tests have been sorted by userclicks
-  const [allTests, setAllTests] = useState(tests.allTests)
-  const [currentTest, setCurrentTest] = useState([])
+  //3 keys => allTests (sorted by clicks), bySubject, byYear
+  const [tests, setTests] = useState(tests)
+  const [currentTest, setCurrentTest] = useState({})
 
-  const testCard = test => {
+  const randomIndex = (listSize, alreadyUsed) => {
+    
+    let randomInt
+
+    do {
+      randomInt = Math.floor(Math.random() * Math.floor(listSize))
+    } while (alreadyUsed.includes(randomInt))
+    
+    alreadyUsed.push(randomInt)
+    return randomInt
+  }
+
+  const renderCategoryContent = category => {
+    let categoryDisplay
+    switch(category) {
+      case 'Trending':
+        for (let i = 0; i < displayChunk; i++) {
+          categoryDisplay += renderTestCard(tests.allTests[i])
+        }
+        break
+      case 'By Subject':
+        testSubjects.forEach(subject => {
+          let displayed = []
+          categoryDisplay += <h1>{subject}</h1>
+          for (let i = 0; i < displayChunk; i++) {
+            let index = randomIndex(tests.bySubject.subject.length, displayed)
+            categoryDisplay += renderTestCard(tests.BySubject.subject[index])
+          }
+        })
+        break
+      case 'By Year':
+        years.forEach(year => {
+          let displayed = []
+          categoryDisplay += <h1>{subject}</h1>
+          for (let i = 0; i < displayChunk; i++) {
+            let index = randomIndex(tests.byYear.year.length, displayed)
+            categoryDisplay += renderTestCard(tests.ByYear.year[index])
+          }
+        })
+        break
+      case 'Random':
+        let displayed = [0,1]
+        for (let i = 0; i < displayChunk; i++) {
+          let index = randomIndex(tests.allTests.length, displayed)
+          categoryDisplay += renderTestCard(tests.allTests[index])
+        }
+        break
+    }
+  }
+
+  const renderTestCard = test => {
     return (
-      <div className='ui card'>
+      <div className='ui card' onClick={() => 
+          test.userClicks += 1,
+          setCurrentTest(test)}>
         <div className="image">
           <img src={test.subject}/>
         </div>
@@ -40,6 +92,47 @@ function App() {
         </div>
       </div>
     )
+  }
+
+  const renderFullTest = currentTest => {
+    if (!currentTest)
+      return
+    
+    let testToRender = 
+      <div>
+        <h1>{currentTest.title}</h1>
+        {currentTest.questions.map(question => {
+          //ideally user could save difficult questions to check later
+          <div className="testQuestion">
+            {question}
+          </div>
+        })}
+      </div>
+
+      return testToRender
+
+  }
+
+  const renderCategories = currentTest => {
+    if (currentTest)
+      return
+    
+    let fullDisplay = 
+      <div>
+      categories.map(category => {
+        <div>
+          <h1>{category}</h1>
+        </div>
+        <div>
+        {renderCategoryContent(category)}
+        </div>
+
+          }
+        </div>
+        }
+      })
+      
+
   }
 
 
