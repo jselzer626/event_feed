@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import logo from './logo.svg';
-import tests from './tests.json';
-import './App.css';
-import 'English' from './images/English.png';
-import 'Math' from './images/Math.png';
-import 'Science' from './images/Science.png';
+import './App.css'
+import English from './images/English.png'
+import Math from './images/Math.png'
+import Science from './images/Science.png'
+import sampleData from './tests.json'
 
 // is there going to be some sort of login / persistent user data for this?
 
@@ -15,12 +14,12 @@ function App() {
   const categories = ['Trending', 'By Subject', 'By Year', 'Random']
   
   //can be adapted for mobile or desktop view
-  // this is how many will display for each category
   const [displayChunk, setDisplayChunk] = useState(2)
-  //3 keys => allTests (sorted by clicks), bySubject, byYear
-  const [tests, setTests] = useState(tests)
+  const [testsTrendingRanked, setTestsTrendingRanked] = useState(sampleData.allTests)
+  const [testsBySubject, setTestsBySubject] = useState(sampleData.bySubject)
+  const [testsByYear, setTestsByYear] = useState(sampleData.byYear)
   const [currentTest, setCurrentTest] = useState({})
-
+  
   const randomIndex = (listSize, alreadyUsed) => {
     
     let randomInt
@@ -38,7 +37,7 @@ function App() {
     switch(category) {
       case 'Trending':
         for (let i = 0; i < displayChunk; i++) {
-          categoryDisplay += renderTestCard(tests.allTests[i])
+          categoryDisplay += renderTestCard(testsTrendingRanked[i])
         }
         break
       case 'By Subject':
@@ -46,29 +45,30 @@ function App() {
           let displayed = []
           categoryDisplay += <h1>{subject}</h1>
           for (let i = 0; i < displayChunk; i++) {
-            let index = randomIndex(tests.bySubject.subject.length, displayed)
-            categoryDisplay += renderTestCard(tests.BySubject.subject[index])
+            let index = randomIndex(testsBySubject[`${subject}`].length, displayed)
+            categoryDisplay += renderTestCard(testsBySubject[`${subject}`][index])
           }
         })
         break
       case 'By Year':
         years.forEach(year => {
           let displayed = []
-          categoryDisplay += <h1>{subject}</h1>
+          categoryDisplay += <h1>{year}</h1>
           for (let i = 0; i < displayChunk; i++) {
-            let index = randomIndex(tests.byYear.year.length, displayed)
-            categoryDisplay += renderTestCard(tests.ByYear.year[index])
+            let index = randomIndex(testsByYear[`${year}`].length, displayed)
+            categoryDisplay += renderTestCard(testsByYear[`${year}`][index])
           }
         })
         break
       case 'Random':
         let displayed = [0,1]
         for (let i = 0; i < displayChunk; i++) {
-          let index = randomIndex(tests.allTests.length, displayed)
-          categoryDisplay += renderTestCard(tests.allTests[index])
+          let index = randomIndex(testsTrendingRanked.length, displayed)
+          categoryDisplay += renderTestCard(testsTrendingRanked[index])
         }
         break
     }
+    return categoryDisplay
   }
 
   const renderTestCard = test => {
@@ -94,57 +94,59 @@ function App() {
     )
   }
 
-  const renderFullTest = currentTest => {
+  const renderFullTest = () => {
+    
     if (!currentTest)
       return
     
-    let testToRender = 
+      /*
+    return (
       <div>
         <h1>{currentTest.title}</h1>
-        {currentTest.questions.map(question => {
-          //ideally user could save difficult questions to check later
-          <div className="testQuestion">
+        <button 
+          onClick = {() => setCurrentTest({})}
+          >Close
+          </button>
+          {currentTest.questions.map(question => {
+          return (<div className="testQuestion">
             {question}
-          </div>
+          </div>)
         })}
-      </div>
-
-      return testToRender
+      </div>)*/
 
   }
 
   const renderCategories = currentTest => {
+    
     if (currentTest)
       return
     
     let fullDisplay = 
-      <div>
       categories.map(category => {
-        <div>
+        console.log(category)
+        return (<div>
+          <div>
           <h1>{category}</h1>
-        </div>
-        <div>
-        {renderCategoryContent(category)}
-        </div>
-
-          }
-        </div>
-        }
-      })
+          </div>
+          <div>
+            {renderCategoryContent(category)}
+          </div>
+        </div>)
+        })
+        return fullDisplay
+      }
       
 
-  }
+
+  
 
 
   return (
     <div className="App">
       <div className="ui text container">
-
-
-
-
+      {renderCategories(currentTest)}
+      {renderFullTest(currentTest)}
       </div>
-
     </div>
   );
 }
