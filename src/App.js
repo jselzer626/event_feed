@@ -1,25 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import English from './images/English.png'
-import Math from './images/Math.png'
+import MathImg from './images/Math.png'
 import Science from './images/Science.png'
 import sampleData from './tests.json'
-
-// organize data
-// imported mock data is currently an array of objects ordered by user clicks
-// organizing into subject and year segmented lists for categorical renderings
-
-let bySubject = {English:[], Math:[], Science:[]}
-let byYear = {2017:[], 2018:[], 2019:[], 2020:[]}
-sampleData.allTests.map(test => {
-  bySubject[`${test.subject}`].push(test)
-  byYear[`${test.year}`].push(test)
-})
-
-
-
-console.log(bySubject)
-console.log(byYear)
 
 function App() {
 
@@ -27,69 +11,31 @@ function App() {
   const years = ['2017', '2018', '2019', '2020']
   const categories = ['Trending', 'By Subject', 'By Year', 'Random']
   
-  //can be adapted for mobile or desktop view
   const [displayChunk, setDisplayChunk] = useState(2)
-  const [testsTrendingRanked, setTestsTrendingRanked] = useState(sampleData.allTests)
-  const [testsBySubject, setTestsBySubject] = useState(bySubject)
-  const [testsByYear, setTestsByYear] = useState(byYear)
+  const [allTests, setAllTests] = useState(sampleData.allTests)
   const [currentTest, setCurrentTest] = useState({})
+  const [displayedTests, setDisplayedTests] = useState([])
+
+  // re-sort tests lists based on any new clicks since last render
   
-  const randomIndex = (listSize, alreadyUsed) => {
+  const findRandomTest = (list) => {
     
+    let newDisplayedTests = displayedTests
     let randomInt
 
     do {
-      randomInt = Math.floor(Math.random() * Math.floor(listSize))
-    } while (alreadyUsed.includes(randomInt))
+      randomInt = Math.floor(Math.random() * Math.floor(list.length))
+    } while (newDisplayedTests.includes(list[randomInt].id))
     
-    alreadyUsed.push(randomInt)
-    return randomInt
-  }
-
-  const renderCategoryContent = category => {
-    let categoryDisplay
-    switch(category) {
-      case 'Trending':
-        for (let i = 0; i < displayChunk; i++) {
-          categoryDisplay += renderTestCard(testsTrendingRanked[i])
-        }
-        break
-      case 'By Subject':
-        testSubjects.forEach(subject => {
-          let displayed = []
-          categoryDisplay += <h1>{subject}</h1>
-          for (let i = 0; i < displayChunk; i++) {
-            let index = randomIndex(testsBySubject[`${subject}`].length, displayed)
-            categoryDisplay += renderTestCard(testsBySubject[`${subject}`][index])
-          }
-        })
-        break
-      case 'By Year':
-        years.forEach(year => {
-          let displayed = []
-          categoryDisplay += <h1>{year}</h1>
-          for (let i = 0; i < displayChunk; i++) {
-            let index = randomIndex(testsByYear[`${year}`].length, displayed)
-            categoryDisplay += renderTestCard(testsByYear[`${year}`][index])
-          }
-        })
-        break
-      case 'Random':
-        let displayed = [0,1]
-        for (let i = 0; i < displayChunk; i++) {
-          let index = randomIndex(testsTrendingRanked.length, displayed)
-          categoryDisplay += renderTestCard(testsTrendingRanked[index])
-        }
-        break
-    }
-    return categoryDisplay
+    newDisplayedTests.push(list[randomInt].id)
+    setDisplayedTests(newDisplayedTests)
+    return list[randomInt]
   }
 
   const renderTestCard = test => {
     return (
-      <div className='ui card' onClick={() => 
-          test.userClicks += 1,
-          setCurrentTest(test)}>
+      <div className='ui card' onClick={() => setCurrentTest(test)}
+          key={test.id}>
         <div className="image">
           <img src={test.subject}/>
         </div>
@@ -104,63 +50,32 @@ function App() {
         <div className="extraContent">
           {test.questions.length} questions
         </div>
-      </div>
-    )
+      </div>)
   }
 
-  const renderFullTest = () => {
-    
-    if (!currentTest)
-      return
-    
-      /*
-    return (
-      <div>
-        <h1>{currentTest.title}</h1>
-        <button 
-          onClick = {() => setCurrentTest({})}
-          >Close
-          </button>
-          {currentTest.questions.map(question => {
-          return (<div className="testQuestion">
-            {question}
-          </div>)
-        })}
-      </div>)*/
+  const renderMoreCards = () => {
 
-  }
-
-  const renderCategories = currentTest => {
+    let display = <div></div>
     
-    if (currentTest)
-      return
-    
-    let fullDisplay = 
-      categories.map(category => {
-        console.log(category)
-        return (<div>
-          <div>
+    categories.map((category, index) => 
+      {if (category == "Trending") {
+        display.innerHTML += <div>
           <h1>{category}</h1>
-          </div>
-          <div>
-            {renderCategoryContent(category)}
-          </div>
-        </div>)
-        })
-        return fullDisplay
-      }
-      
+          {renderTestCard(allTests[index])}
+          {renderTestCard(allTests[index+1])}
+        </div>
+      }}
+    )
 
+    return display
+  }
 
-  
 
 
   return (
     <div className="App">
       <div className="ui text container">
-        {console.log(testsBySubject)}
-      {renderCategories(currentTest)}
-      {renderFullTest(currentTest)}
+      {renderMoreCards()}
       </div>
     </div>
   );
