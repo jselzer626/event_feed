@@ -15,18 +15,21 @@ subjects.forEach(subject => {
 })*/
 
 let years = ['2017', '2018', '2019', '2020']
-
-tests = {allTests: [], bySubject: [], byYear: []}
+id_counter = 0
+tests = {allTests: []}
 
 let createTests = () => {
     subjects.forEach(subject => {
-        var subjectTest = {[subject]: []}
+        
         years.forEach(year => {
+            
             var yearTest = {[year]: []}
             for (let i = 0; i < 10; i ++) {
                 var newTest = {}
                 newTest.subject = subject
                 newTest.year = year
+                newTest.id = id_counter
+                id_counter++
                 newTest.title = `${year} ${subject} Exam`
                 questions = []
                 for (let j = 0; j < 30; j++) {
@@ -37,12 +40,8 @@ let createTests = () => {
                 newTest.userClicked = false
                 newTest.userClicks = Math.floor(Math.random() * Math.floor(20))
                 tests.allTests.push(newTest)
-                subjectTest[`${subject}`].push(newTest)
-                yearTest[`${year}`].push(newTest)
             }
-            tests.byYear.push(yearTest)
         })
-        tests.bySubject.push(subjectTest)
     })
 }
 

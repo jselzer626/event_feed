@@ -5,7 +5,21 @@ import Math from './images/Math.png'
 import Science from './images/Science.png'
 import sampleData from './tests.json'
 
-// is there going to be some sort of login / persistent user data for this?
+// organize data
+// imported mock data is currently an array of objects ordered by user clicks
+// organizing into subject and year segmented lists for categorical renderings
+
+let bySubject = {English:[], Math:[], Science:[]}
+let byYear = {2017:[], 2018:[], 2019:[], 2020:[]}
+sampleData.allTests.map(test => {
+  bySubject[`${test.subject}`].push(test)
+  byYear[`${test.year}`].push(test)
+})
+
+
+
+console.log(bySubject)
+console.log(byYear)
 
 function App() {
 
@@ -16,8 +30,8 @@ function App() {
   //can be adapted for mobile or desktop view
   const [displayChunk, setDisplayChunk] = useState(2)
   const [testsTrendingRanked, setTestsTrendingRanked] = useState(sampleData.allTests)
-  const [testsBySubject, setTestsBySubject] = useState(sampleData.bySubject)
-  const [testsByYear, setTestsByYear] = useState(sampleData.byYear)
+  const [testsBySubject, setTestsBySubject] = useState(bySubject)
+  const [testsByYear, setTestsByYear] = useState(byYear)
   const [currentTest, setCurrentTest] = useState({})
   
   const randomIndex = (listSize, alreadyUsed) => {
@@ -144,6 +158,7 @@ function App() {
   return (
     <div className="App">
       <div className="ui text container">
+        {console.log(testsBySubject)}
       {renderCategories(currentTest)}
       {renderFullTest(currentTest)}
       </div>
