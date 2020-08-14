@@ -194,7 +194,9 @@ function App() {
         <div className='ui huge header'>
           <p>Test Feed</p>
         </div>
-        <div className='ui medium header'>
+        <div className='ui medium header'
+          style={{display: !currentTest ? 'block': 'none'}}
+        >
           <p>Click on a test to view!</p>
         </div>
         {renderFeed(currentTest)}

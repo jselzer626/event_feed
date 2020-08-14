@@ -22,6 +22,8 @@
 #optionsBar {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .selectedOption {
