@@ -17,11 +17,17 @@ function App() {
   const [displayedTests, setDisplayedTests] = useState([])
   const [selectedYear, setSelectedYear] = useState('2020')
   const [selectedSubject, setSelectedSubject] = useState('English')
+  const [questionStep, setQuestionStep] = useState(5)
   
   const imageMatcher = name => {
     if (name==="Science") return Science
     else if (name==="Math") return MathImg
     else return English
+  }
+
+  const exitTest = () => {
+    setCurrentTest(null)
+    setQuestionStep(5)
   }
 
   const findTest = (list, displayed) => {
@@ -34,6 +40,14 @@ function App() {
     
     displayed.push(list[randomInt].id)
     return list[randomInt]
+  }
+
+  const renderTestQuestion = question => {
+    return (
+      <div className="testQuestion">
+        {question}
+      </div>
+    )
   }
 
   const renderTestCard = test => {
@@ -65,7 +79,26 @@ function App() {
     
     return (
       <div>
-        <h1>{currentTest.title}</h1>
+        <div>
+          <h1>{currentTest.title}</h1>
+          <button className="ui massive fluid button orange"
+            onClick={() => exitTest()}  
+          >
+            Go Back</button>
+        </div>
+        <div>
+          {currentTest.questions.map((question, index) => {
+            if (index < questionStep) {
+              return renderTestQuestion(question)
+            }
+          })}
+          <button className="ui massive fluid button green"
+            onClick={() => {
+              let newStep = questionStep
+              setQuestionStep(newStep += 5)
+            }}
+          >Keep Going!</button>
+        </div>
       </div>
     )
   }
@@ -80,10 +113,11 @@ function App() {
       return categories.map((category) => {
             
         if (category === "Trending") {
-          
-          return <div className="ui two column grid">
+          return <div className="ui stackable two column divided grid">
               <div className="row">
-                <h1>{category}</h1>
+                <div className="sixteen wide column" style={{textAlign: "center"}}>
+                  <h1>{category}</h1>
+                </div>
               </div>
               <div className="row">
                 {displayChunk.map(num => {
@@ -92,62 +126,62 @@ function App() {
                 })}</div>
               </div>
         } else if (category === "Random") {
-          
-          return <div className="ui two column grid">
-                    <div className="row">
+            return <div className="ui stackable two column divided grid">
+                      <div className="row">
+                        <div className="sixteen wide column" style={{textAlign: "center"}}>
                       <h1>{category}</h1>
                     </div>
-                    <div className="row">
-                      {displayChunk.map(num => {
-                        return renderTestCard(findTest(allTests, newDisplayedTests))
+                      </div>
+                      <div className="row">
+                        {displayChunk.map(num => {
+                          return renderTestCard(findTest(allTests, newDisplayedTests))
+                        })}</div>
+                    </div>
+        } else if (category === "By Year") {
+            return <div className="ui stackable two column divided grid">
+                      <div className="row">
+                        <div className="sixteen wide column" style={{textAlign: "center"}}>
+                          <h1>{category}</h1>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="sixteen wide column" id="optionsBar">
+                          {years.map(year => {
+                            return <p onClick={()=> setSelectedYear(year)}
+                              className={year===selectedYear ? 'selectedOption' : ''}
+                              >
+                              {year}</p>
+                          })}
+                        </div>
+                      </div>
+                      <div className="row">
+                        { displayChunk.map(num => {
+                          return renderTestCard(findTest(allTests.filter(test => test.year === selectedYear), newDisplayedTests))
                       })}</div>
                   </div>
-        } else if (category === "By Year") {
-          
-          return <div className="ui two column grid">
-                    <div className="row">
-                      <h1>{category}</h1>
-                    </div>
-                    <div className="row">
-                      {years.map(year => {
-                        return <p onClick={()=> setSelectedYear(year)}>
-                          {year}</p>
-                      })}
-                    </div>
-                    <div className="row">
-                      { displayChunk.map(num => {
-                        return renderTestCard(findTest(allTests.filter(test => test.year === selectedYear), newDisplayedTests))
-                    })}</div>
-                </div>
-
         } else {
-
-          return <div className="ui two column grid">
-                    <div className="row">
-                      <h1>{category}</h1>
-                    </div>
-                    <div className="row">
-                      {testSubjects.map(subject => {
-                        return <p onClick={()=> setSelectedSubject(subject)}>
-                          {subject}</p>
-                      })}
-                    </div>
-                    <div className="row">
-                      { displayChunk.map(num => {
-                        return renderTestCard(findTest(allTests.filter(test => test.subject === selectedSubject), newDisplayedTests))
-                    })}</div>
-                </div>
-
-        }
-
-        /*return <div
-            className="cardRow"><h1>{category}</h1>
-          {testSubjects.map(subject => {
-            let subjectSpecific = allTests.filter(test => test.subject === subject)
-            return <div><h3>{subject}</h3>
-              {renderTestCard(findTest(subjectSpecific, newDisplayedTests))}</div>
-          })}</div>*/
-          })
+            return <div className="ui stackable two column divided grid">
+                      <div className="row">
+                        <div className="sixteen wide column" style={{textAlign: "center"}}>
+                          <h1>{category}</h1>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="sixteen wide column" id="optionsBar">
+                          {testSubjects.map(subject => {
+                            return <p onClick={()=> setSelectedSubject(subject)}
+                              className={subject===selectedSubject ? 'selectedOption' : ''}>
+                              {subject}</p>
+                          })}
+                        </div>
+                      </div>
+                      <div className="row">
+                        { displayChunk.map(num => {
+                          return renderTestCard(findTest(allTests.filter(test => test.subject === selectedSubject), newDisplayedTests))
+                      })}</div>
+                  </div>
+            }
+        })
         
 
   }
@@ -157,6 +191,12 @@ function App() {
   return (
     <div className="App">
       <div className="ui text container">
+        <div className='ui huge header'>
+          <p>Test Feed</p>
+        </div>
+        <div className='ui medium header'>
+          <p>Click on a test to view!</p>
+        </div>
         {renderFeed(currentTest)}
         {renderTest(currentTest)}
       </div>

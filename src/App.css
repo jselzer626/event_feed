@@ -1,8 +1,15 @@
 .App {
   text-align: center;
-  background-color: lightcyan;
 }
 
+.ui.text.container {
+  margin-top: 20px;
+}
+
+.header.medium {
+  margin-top: 10px;
+  border-bottom: 1px solid lightgray;
+}
 .cardRow {
   display: flex;
   justify-content: space-evenly;
@@ -10,6 +17,16 @@
 
 .ui.card>.image>img {
   height: 215px;
+}
+
+#optionsBar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.selectedOption {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 
