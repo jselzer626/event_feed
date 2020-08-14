@@ -23,7 +23,6 @@ let createTests = () => {
         
         years.forEach(year => {
             
-            var yearTest = {[year]: []}
             for (let i = 0; i < 10; i ++) {
                 var newTest = {}
                 newTest.subject = subject

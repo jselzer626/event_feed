@@ -13,7 +13,10 @@ function App() {
   
   const [displayChunk, setDisplayChunk] = useState([0,1])
   const [allTests, setAllTests] = useState(sampleData.allTests)
-  const [currentTest, setCurrentTest] = useState({})
+  const [currentTest, setCurrentTest] = useState(null)
+  const [displayedTests, setDisplayedTests] = useState([])
+  const [selectedYear, setSelectedYear] = useState('2020')
+  const [selectedSubject, setSelectedSubject] = useState('English')
   
   const imageMatcher = name => {
     if (name==="Science") return Science
@@ -35,27 +38,42 @@ function App() {
 
   const renderTestCard = test => {
     return (
-      <div className='ui card' onClick={() => setCurrentTest(test)}
-          key={test.id}>
-        <div className="ui image medium">
-          <img src={imageMatcher(test.subject)}/>
-        </div>
-        <div className="content">
-          <div className="header">
-            {test.title}
+      <div className="column">
+        <div className='ui card' onClick={() => setCurrentTest(test)}
+            key={test.id}>
+          <div className="ui image medium">
+            <img src={imageMatcher(test.subject)}/>
           </div>
-          <div className="description">
-            This test has been viewed {test.userClicks} times
+          <div className="content">
+            <div className="header">
+              {test.title}
+            </div>
+            <div className="description">
+              This test has been viewed {test.userClicks} times
+            </div>
           </div>
-        </div>
-        <div className="extra content">
-          {test.questions.length} questions
+          <div className="extra content">
+            {test.questions.length} questions
+          </div>
         </div>
       </div>)
   }
 
+  const renderTest = currentTest => {
+    if (!currentTest)
+      return
+    
+    return (
+      <div>
+        <h1>{currentTest.title}</h1>
+      </div>
+    )
+  }
     //got hella returns here
-  const renderContent = () => {
+  const renderFeed = currentTest => {
+
+      if (currentTest)
+        return
 
       let newDisplayedTests = []
         
@@ -63,39 +81,75 @@ function App() {
             
         if (category === "Trending") {
           
-          return <div><h1>{category}</h1>
-            {displayChunk.map(num => {
-              return renderTestCard(allTests[num])
-            })}</div>
-
+          return <div className="ui two column grid">
+              <div className="row">
+                <h1>{category}</h1>
+              </div>
+              <div className="row">
+                {displayChunk.map(num => {
+                  newDisplayedTests.push(allTests[num].id)
+                  return renderTestCard(allTests[num])
+                })}</div>
+              </div>
         } else if (category === "Random") {
           
-          return <div><h1>{category}</h1>
-            {displayChunk.map(num => {
-              return renderTestCard(findTest(allTests, newDisplayedTests))
-            })}</div>
-
+          return <div className="ui two column grid">
+                    <div className="row">
+                      <h1>{category}</h1>
+                    </div>
+                    <div className="row">
+                      {displayChunk.map(num => {
+                        return renderTestCard(findTest(allTests, newDisplayedTests))
+                      })}</div>
+                  </div>
         } else if (category === "By Year") {
           
-          return <div><h1>{category}</h1>
-          {years.map(year => {
-            let yearSpecific = allTests.filter(test => test.year === year)
-            return <div><h3>{year}</h3>
-              {renderTestCard(findTest(yearSpecific, newDisplayedTests))}</div>
-          })}</div>
+          return <div className="ui two column grid">
+                    <div className="row">
+                      <h1>{category}</h1>
+                    </div>
+                    <div className="row">
+                      {years.map(year => {
+                        return <p onClick={()=> setSelectedYear(year)}>
+                          {year}</p>
+                      })}
+                    </div>
+                    <div className="row">
+                      { displayChunk.map(num => {
+                        return renderTestCard(findTest(allTests.filter(test => test.year === selectedYear), newDisplayedTests))
+                    })}</div>
+                </div>
 
         } else {
 
-          return <div><h1>{category}</h1>
-          {years.map(year => {
-            let yearSpecific = allTests.filter(test => test.year === year)
-            return <div><h3>{year}</h3>
-              {renderTestCard(findTest(yearSpecific, newDisplayedTests))}</div>
-          })}</div>
+          return <div className="ui two column grid">
+                    <div className="row">
+                      <h1>{category}</h1>
+                    </div>
+                    <div className="row">
+                      {testSubjects.map(subject => {
+                        return <p onClick={()=> setSelectedSubject(subject)}>
+                          {subject}</p>
+                      })}
+                    </div>
+                    <div className="row">
+                      { displayChunk.map(num => {
+                        return renderTestCard(findTest(allTests.filter(test => test.subject === selectedSubject), newDisplayedTests))
+                    })}</div>
+                </div>
 
         }
+
+        /*return <div
+            className="cardRow"><h1>{category}</h1>
+          {testSubjects.map(subject => {
+            let subjectSpecific = allTests.filter(test => test.subject === subject)
+            return <div><h3>{subject}</h3>
+              {renderTestCard(findTest(subjectSpecific, newDisplayedTests))}</div>
+          })}</div>*/
           })
-    
+        
+
   }
 
 
@@ -103,7 +157,8 @@ function App() {
   return (
     <div className="App">
       <div className="ui text container">
-      {renderContent()}
+        {renderFeed(currentTest)}
+        {renderTest(currentTest)}
       </div>
     </div>
   );
