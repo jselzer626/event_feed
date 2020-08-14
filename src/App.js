@@ -11,7 +11,7 @@ function App() {
   const years = ['2017', '2018', '2019', '2020']
   const categories = ['Trending', 'By Subject', 'By Year', 'Random']
   
-  const [displayChunk, setDisplayChunk] = useState([0,1])
+  const [displayChunk, setDisplayChunk] = useState({Trending: [0,0], Random: [0,0], bySubject: [0,0], byYear: [0,0]})
   const [allTests, setAllTests] = useState(sampleData.allTests)
   const [currentTest, setCurrentTest] = useState(null)
   const [displayedTests, setDisplayedTests] = useState([])
@@ -48,6 +48,21 @@ function App() {
         {question}
       </div>
     )
+  }
+
+  const loadMoreContent = category => {
+    let categoryClean = category
+    if (category == "By Subject")
+      categoryClean = 'bySubject'
+    else if (category === "By Year")
+      categoryClean = 'byYear'
+    
+    let newDisplay = displayChunk[`${categoryClean}`]
+    for (let i = 0; i < 2; i++) {
+      newDisplay.push(0)
+    }
+    setDisplayChunk({...displayChunk, categoryClean:newDisplay})
+    
   }
 
   const renderTestCard = test => {
@@ -120,10 +135,15 @@ function App() {
                 </div>
               </div>
               <div className="row">
-                {displayChunk.map(num => {
-                  newDisplayedTests.push(allTests[num].id)
-                  return renderTestCard(allTests[num])
+                {displayChunk.Trending.map((num, index) => {
+                  newDisplayedTests.push(allTests[index].id)
+                  return renderTestCard(allTests[index])
                 })}</div>
+                <button
+                      className="ui button massive fluid green"
+                      onClick={() => loadMoreContent(category)}
+                      > Load More {category} Tests
+                </button> 
               </div>
         } else if (category === "Random") {
             return <div className="ui stackable two column divided grid">
@@ -133,9 +153,14 @@ function App() {
                     </div>
                       </div>
                       <div className="row">
-                        {displayChunk.map(num => {
+                        {displayChunk.Random.map(num => {
                           return renderTestCard(findTest(allTests, newDisplayedTests))
                         })}</div>
+                        <button
+                          className="ui button massive fluid green"
+                          onClick={() => loadMoreContent(category)}
+                          > Load More {category} Tests
+                        </button>
                     </div>
         } else if (category === "By Year") {
             return <div className="ui stackable two column divided grid">
@@ -155,9 +180,14 @@ function App() {
                         </div>
                       </div>
                       <div className="row">
-                        { displayChunk.map(num => {
+                        { displayChunk.byYear.map(num => {
                           return renderTestCard(findTest(allTests.filter(test => test.year === selectedYear), newDisplayedTests))
                       })}</div>
+                      <button
+                        className="ui button massive fluid green"
+                        onClick={() => loadMoreContent(category)}
+                        > Load More {selectedYear} Tests
+                      </button>
                   </div>
         } else {
             return <div className="ui stackable two column divided grid">
@@ -176,9 +206,14 @@ function App() {
                         </div>
                       </div>
                       <div className="row">
-                        { displayChunk.map(num => {
+                        { displayChunk.bySubject.map(num => {
                           return renderTestCard(findTest(allTests.filter(test => test.subject === selectedSubject), newDisplayedTests))
                       })}</div>
+                      <button
+                        className="ui button massive fluid green"
+                        onClick={() => loadMoreContent(category)}
+                        > Load More {selectedSubject} Tests
+                      </button>
                   </div>
             }
         })
