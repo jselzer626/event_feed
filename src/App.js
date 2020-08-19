@@ -5,6 +5,46 @@ import MathImg from './images/Math.png'
 import Science from './images/Science.png'
 import sampleData from './tests.json'
 
+import mockData from './mockQuestions.json';
+console.log(mockData)
+
+mockData.length
+
+let questions = {}
+
+//loop 5 times
+//within each loop, iterate 25 times
+//within each, check value of .gs$cell.inputValue
+
+//How do we know which column we're in?
+
+mockData.forEach( (element, index) => {
+
+  if(element.gs$cell.col === 3){ //reference
+
+    if(questions[element.gs$cell.row]){
+      
+      questions[element.gs$cell.row][reference] = questions[element.gs$cell.inputValue]
+
+    } else {
+      questions[element.gs$cell.row] = {}
+    }
+  } 
+
+  if(element.gs$cell.col === 8){ //ans
+
+  }
+  
+  if(element.gs$cell.col === 15){ //image url
+
+  }
+
+  if(element.gs$cell.col === 12){ //identifier
+
+  }
+
+})
+
 function App() {
 
   const testSubjects = ['English', 'Math', 'Science']

@@ -1,0 +1,5027 @@
+[
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C1"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "A1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "JMAP Q"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C1"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "1",
+            "inputValue": "JMAP Q",
+            "$t": "JMAP Q"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C2"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "B1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "JMAP ANS"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C2"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "2",
+            "inputValue": "JMAP ANS",
+            "$t": "JMAP ANS"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C3"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "C1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "JMAP REF"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C3"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "3",
+            "inputValue": "JMAP REF",
+            "$t": "JMAP REF"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C4"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "D1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "JMAP NAT"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C4"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "4",
+            "inputValue": "JMAP NAT",
+            "$t": "JMAP NAT"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C5"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "E1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "REF CHECK"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C5"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "5",
+            "inputValue": "REF CHECK",
+            "$t": "REF CHECK"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C6"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "F1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "REF"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C6"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "6",
+            "inputValue": "REF",
+            "$t": "REF"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C7"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "G1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C7"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "7",
+            "inputValue": "Q",
+            "$t": "Q"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C8"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "H1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "ANS"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C8"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "8",
+            "inputValue": "ANS",
+            "$t": "ANS"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C9"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "I1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "PTS"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C9"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "9",
+            "inputValue": "PTS",
+            "$t": "PTS"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C10"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "J1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "NAT"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C10"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "10",
+            "inputValue": "NAT",
+            "$t": "NAT"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C11"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "K1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "TOP"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C11"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "11",
+            "inputValue": "TOP",
+            "$t": "TOP"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C12"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "L1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "KEY"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C12"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "12",
+            "inputValue": "KEY",
+            "$t": "KEY"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C13"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "M1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "CHECK"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C13"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "13",
+            "inputValue": "CHECK",
+            "$t": "CHECK"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C14"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "N1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "URL REF"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C14"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "14",
+            "inputValue": "URL REF",
+            "$t": "URL REF"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C15"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "O1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "URL"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C15"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "15",
+            "inputValue": "URL",
+            "$t": "URL"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C16"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "P1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Protocol"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C16"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "16",
+            "inputValue": "Protocol",
+            "$t": "Protocol"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C17"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Q1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Base"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C17"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "17",
+            "inputValue": "Base",
+            "$t": "Base"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C18"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "R1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Dir1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C18"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "18",
+            "inputValue": "Dir1",
+            "$t": "Dir1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C19"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "S1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Dir2"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C19"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "19",
+            "inputValue": "Dir2",
+            "$t": "Dir2"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C20"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "T1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Dir3"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C20"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "20",
+            "inputValue": "Dir3",
+            "$t": "Dir3"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C21"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "U1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "File"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C21"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "21",
+            "inputValue": "File",
+            "$t": "File"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C22"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "V1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "MonthYear"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C22"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "22",
+            "inputValue": "MonthYear",
+            "$t": "MonthYear"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C23"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "W1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Question Number"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C23"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "23",
+            "inputValue": "Question Number",
+            "$t": "Question Number"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C24"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "X1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C24"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "24",
+            "inputValue": "Q",
+            "$t": "Q"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C25"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Y1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C25"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "25",
+            "inputValue": "Q",
+            "$t": "Q"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C26"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Z1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "MOval"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C26"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "26",
+            "inputValue": "MOval",
+            "$t": "MOval"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C27"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AA1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "MO"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C27"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "27",
+            "inputValue": "MO",
+            "$t": "MO"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C28"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AB1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "YEARval"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C28"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "28",
+            "inputValue": "YEARval",
+            "$t": "YEARval"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C29"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AC1"
+        },
+        "content": {
+            "type": "text",
+            "$t": "YEAR"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R1C29"
+            }
+        ],
+        "gs$cell": {
+            "row": "1",
+            "col": "29",
+            "inputValue": "YEAR",
+            "$t": "YEAR"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C1"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "A2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "001"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C1"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "1",
+            "inputValue": "001",
+            "$t": "001"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C2"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "B2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C2"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "2",
+            "inputValue": "'1",
+            "$t": "1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C3"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "C2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "061401ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C3"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "3",
+            "inputValue": "061401ai",
+            "$t": "061401ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C4"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "D2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "A.REI.A.1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C4"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "4",
+            "inputValue": "A.REI.A.1",
+            "$t": "A.REI.A.1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C5"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "E2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "TRUE"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C5"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "5",
+            "inputValue": "\u003dR[0]C[-2]\u003dR[0]C[1]",
+            "$t": "TRUE"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C6"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "F2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "061401ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C6"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "6",
+            "inputValue": "061401ai",
+            "$t": "061401ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C7"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "G2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C7"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "7",
+            "inputValue": "'1",
+            "$t": "1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C8"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "H2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C8"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "8",
+            "inputValue": "'1",
+            "$t": "1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C9"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "I2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "2"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C9"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "9",
+            "inputValue": "'2",
+            "$t": "2"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C10"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "J2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "A.REI.A.1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C10"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "10",
+            "inputValue": "A.REI.A.1",
+            "$t": "A.REI.A.1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C11"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "K2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Identifying Properties"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C11"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "11",
+            "inputValue": "Identifying Properties",
+            "$t": "Identifying Properties"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C13"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "M2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "TRUE"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C13"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "13",
+            "inputValue": "\u003dR[0]C[1]\u003dR[0]C[-7]",
+            "$t": "TRUE"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C14"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "N2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "061401ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C14"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "14",
+            "inputValue": "\u003dCONCATENATE(R[0]C26,R[0]C28,R[0]C24,\"ai\")",
+            "$t": "061401ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C15"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "O2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "https://nsipplswezey.github.io/earthly-questions/alg1/algone62014/Q1.png"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C15"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "15",
+            "inputValue": "https://nsipplswezey.github.io/earthly-questions/alg1/algone62014/Q1.png",
+            "$t": "https://nsipplswezey.github.io/earthly-questions/alg1/algone62014/Q1.png"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C16"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "P2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "https:"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C16"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "16",
+            "inputValue": "\u003dSPLIT(R[0]C[-1],\"/\")",
+            "$t": "https:"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C17"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Q2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "nsipplswezey.github.io"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C17"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "17",
+            "inputValue": "nsipplswezey.github.io",
+            "$t": "nsipplswezey.github.io"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C18"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "R2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "earthly-questions"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C18"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "18",
+            "inputValue": "earthly-questions",
+            "$t": "earthly-questions"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C19"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "S2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "alg1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C19"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "19",
+            "inputValue": "alg1",
+            "$t": "alg1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C20"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "T2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "algone62014"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C20"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "20",
+            "inputValue": "algone62014",
+            "$t": "algone62014"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C21"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "U2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q1.png"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C21"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "21",
+            "inputValue": "Q1.png",
+            "$t": "Q1.png"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C22"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "V2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "62014"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C22"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "22",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\"algone\")",
+            "numericValue": "62014.0",
+            "$t": "62014"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C23"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "W2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C23"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "23",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\".png\")",
+            "$t": "Q1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C24"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "X2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C24"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "24",
+            "inputValue": "01",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C25"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Y2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C25"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "25",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\"Q\")",
+            "numericValue": "1.0",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C26"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Z2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "06"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C26"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "26",
+            "inputValue": "06",
+            "$t": "06"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C27"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AA2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "06"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C27"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "27",
+            "inputValue": "\u003dSPLIT(R[0]C[-5],\"20\")",
+            "numericValue": "6.0",
+            "$t": "06"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C28"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AB2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "14"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C28"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "28",
+            "inputValue": "14",
+            "numericValue": "14.0",
+            "$t": "14"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C29"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AC2"
+        },
+        "content": {
+            "type": "text",
+            "$t": "14"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R2C29"
+            }
+        ],
+        "gs$cell": {
+            "row": "2",
+            "col": "29",
+            "inputValue": "14",
+            "numericValue": "14.0",
+            "$t": "14"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C1"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "A3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "002"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C1"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "1",
+            "inputValue": "002",
+            "$t": "002"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C2"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "B3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "4"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C2"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "2",
+            "inputValue": "'4",
+            "$t": "4"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C3"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "C3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "081701ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C3"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "3",
+            "inputValue": "081701ai",
+            "$t": "081701ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C4"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "D3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "A.REI.A.1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C4"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "4",
+            "inputValue": "A.REI.A.1",
+            "$t": "A.REI.A.1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C5"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "E3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "TRUE"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C5"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "5",
+            "inputValue": "\u003dR[0]C[-2]\u003dR[0]C[1]",
+            "$t": "TRUE"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C6"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "F3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "081701ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C6"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "6",
+            "inputValue": "081701ai",
+            "$t": "081701ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C7"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "G3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C7"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "7",
+            "inputValue": "'1",
+            "$t": "1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C8"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "H3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "4"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C8"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "8",
+            "inputValue": "'4",
+            "$t": "4"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C9"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "I3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "2"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C9"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "9",
+            "inputValue": "'2",
+            "$t": "2"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C10"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "J3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "A.REI.A.1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C10"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "10",
+            "inputValue": "A.REI.A.1",
+            "$t": "A.REI.A.1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C11"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "K3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Identifying Properties"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C11"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "11",
+            "inputValue": "Identifying Properties",
+            "$t": "Identifying Properties"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C12"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "L3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "AI"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C12"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "12",
+            "inputValue": "AI",
+            "$t": "AI"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C13"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "M3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "TRUE"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C13"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "13",
+            "inputValue": "\u003dR[0]C[1]\u003dR[0]C[-7]",
+            "$t": "TRUE"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C14"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "N3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "081701ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C14"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "14",
+            "inputValue": "\u003dCONCATENATE(R[0]C26,R[0]C28,R[0]C24,\"ai\")",
+            "$t": "081701ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C15"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "O3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "https://nsipplswezey.github.io/earthly-questions/alg1/algone82017/Q1.png"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C15"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "15",
+            "inputValue": "https://nsipplswezey.github.io/earthly-questions/alg1/algone82017/Q1.png",
+            "$t": "https://nsipplswezey.github.io/earthly-questions/alg1/algone82017/Q1.png"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C16"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "P3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "https:"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C16"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "16",
+            "inputValue": "\u003dSPLIT(R[0]C[-1],\"/\")",
+            "$t": "https:"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C17"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Q3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "nsipplswezey.github.io"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C17"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "17",
+            "inputValue": "nsipplswezey.github.io",
+            "$t": "nsipplswezey.github.io"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C18"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "R3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "earthly-questions"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C18"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "18",
+            "inputValue": "earthly-questions",
+            "$t": "earthly-questions"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C19"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "S3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "alg1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C19"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "19",
+            "inputValue": "alg1",
+            "$t": "alg1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C20"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "T3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "algone82017"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C20"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "20",
+            "inputValue": "algone82017",
+            "$t": "algone82017"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C21"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "U3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q1.png"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C21"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "21",
+            "inputValue": "Q1.png",
+            "$t": "Q1.png"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C22"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "V3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "82017"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C22"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "22",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\"algone\")",
+            "numericValue": "82017.0",
+            "$t": "82017"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C23"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "W3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C23"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "23",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\".png\")",
+            "$t": "Q1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C24"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "X3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C24"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "24",
+            "inputValue": "01",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C25"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Y3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C25"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "25",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\"Q\")",
+            "numericValue": "1.0",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C26"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Z3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "08"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C26"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "26",
+            "inputValue": "08",
+            "$t": "08"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C27"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AA3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "08"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C27"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "27",
+            "inputValue": "\u003dSPLIT(R[0]C[-5],\"20\")",
+            "numericValue": "8.0",
+            "$t": "08"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C28"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AB3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "17"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C28"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "28",
+            "inputValue": "17",
+            "numericValue": "17.0",
+            "$t": "17"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C29"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AC3"
+        },
+        "content": {
+            "type": "text",
+            "$t": "17"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R3C29"
+            }
+        ],
+        "gs$cell": {
+            "row": "3",
+            "col": "29",
+            "inputValue": "17",
+            "numericValue": "17.0",
+            "$t": "17"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C1"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "A4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "003"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C1"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "1",
+            "inputValue": "003",
+            "$t": "003"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C2"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "B4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "4"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C2"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "2",
+            "inputValue": "'4",
+            "$t": "4"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C3"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "C4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "011801ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C3"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "3",
+            "inputValue": "011801ai",
+            "$t": "011801ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C4"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "D4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "A.REI.A.1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C4"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "4",
+            "inputValue": "A.REI.A.1",
+            "$t": "A.REI.A.1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C5"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "E4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "TRUE"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C5"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "5",
+            "inputValue": "\u003dR[0]C[-2]\u003dR[0]C[1]",
+            "$t": "TRUE"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C6"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "F4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "011801ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C6"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "6",
+            "inputValue": "011801ai",
+            "$t": "011801ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C7"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "G4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C7"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "7",
+            "inputValue": "'1",
+            "$t": "1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C8"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "H4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "4"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C8"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "8",
+            "inputValue": "'4",
+            "$t": "4"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C9"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "I4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "2"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C9"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "9",
+            "inputValue": "'2",
+            "$t": "2"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C10"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "J4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "A.REI.A.1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C10"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "10",
+            "inputValue": "A.REI.A.1",
+            "$t": "A.REI.A.1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C11"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "K4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Identifying Properties"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C11"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "11",
+            "inputValue": "Identifying Properties",
+            "$t": "Identifying Properties"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C12"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "L4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "AI"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C12"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "12",
+            "inputValue": "AI",
+            "$t": "AI"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C13"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "M4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "TRUE"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C13"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "13",
+            "inputValue": "\u003dR[0]C14\u003dR[0]C6",
+            "$t": "TRUE"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C14"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "N4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "011801ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C14"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "14",
+            "inputValue": "\u003dCONCATENATE(R[0]C26,R[0]C28,R[0]C24,\"ai\")",
+            "$t": "011801ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C15"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "O4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "https://nsipplswezey.github.io/earthly-questions/alg1/algone12018/Q1.png"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C15"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "15",
+            "inputValue": "https://nsipplswezey.github.io/earthly-questions/alg1/algone12018/Q1.png",
+            "$t": "https://nsipplswezey.github.io/earthly-questions/alg1/algone12018/Q1.png"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C16"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "P4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "https:"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C16"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "16",
+            "inputValue": "\u003dSPLIT(R[0]C[-1],\"/\")",
+            "$t": "https:"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C17"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Q4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "nsipplswezey.github.io"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C17"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "17",
+            "inputValue": "nsipplswezey.github.io",
+            "$t": "nsipplswezey.github.io"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C18"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "R4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "earthly-questions"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C18"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "18",
+            "inputValue": "earthly-questions",
+            "$t": "earthly-questions"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C19"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "S4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "alg1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C19"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "19",
+            "inputValue": "alg1",
+            "$t": "alg1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C20"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "T4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "algone12018"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C20"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "20",
+            "inputValue": "algone12018",
+            "$t": "algone12018"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C21"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "U4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q1.png"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C21"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "21",
+            "inputValue": "Q1.png",
+            "$t": "Q1.png"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C22"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "V4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "12018"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C22"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "22",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\"algone\")",
+            "numericValue": "12018.0",
+            "$t": "12018"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C23"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "W4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C23"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "23",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\".png\")",
+            "$t": "Q1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C24"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "X4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C24"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "24",
+            "inputValue": "01",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C25"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Y4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C25"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "25",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\"Q\")",
+            "numericValue": "1.0",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C26"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Z4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C26"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "26",
+            "inputValue": "01",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C27"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AA4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C27"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "27",
+            "inputValue": "\u003dSPLIT(R[0]C[-5],\"20\")",
+            "numericValue": "1.0",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C28"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AB4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "18"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C28"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "28",
+            "inputValue": "18",
+            "numericValue": "18.0",
+            "$t": "18"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C29"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AC4"
+        },
+        "content": {
+            "type": "text",
+            "$t": "18"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R4C29"
+            }
+        ],
+        "gs$cell": {
+            "row": "4",
+            "col": "29",
+            "inputValue": "18",
+            "numericValue": "18.0",
+            "$t": "18"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C1"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "A5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "004"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C1"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "1",
+            "inputValue": "004",
+            "$t": "004"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C2"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "B5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "4"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C2"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "2",
+            "inputValue": "'4",
+            "$t": "4"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C3"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "C5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "011908ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C3"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "3",
+            "inputValue": "011908ai",
+            "$t": "011908ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C4"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "D5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "A.REI.A.1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C4"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "4",
+            "inputValue": "A.REI.A.1",
+            "$t": "A.REI.A.1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C5"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "E5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "TRUE"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C5"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "5",
+            "inputValue": "\u003dR[0]C[-2]\u003dR[0]C[1]",
+            "$t": "TRUE"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C6"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "F5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "011908ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C6"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "6",
+            "inputValue": "011908ai",
+            "$t": "011908ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C7"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "G5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "8"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C7"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "7",
+            "inputValue": "'8",
+            "$t": "8"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C8"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "H5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "4"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C8"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "8",
+            "inputValue": "'4",
+            "$t": "4"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C9"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "I5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "2"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C9"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "9",
+            "inputValue": "'2",
+            "$t": "2"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C10"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "J5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "A.REI.A.1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C10"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "10",
+            "inputValue": "A.REI.A.1",
+            "$t": "A.REI.A.1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C11"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "K5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Identifying Properties"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C11"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "11",
+            "inputValue": "Identifying Properties",
+            "$t": "Identifying Properties"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C13"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "M5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "TRUE"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C13"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "13",
+            "inputValue": "\u003dR[0]C[1]\u003dR[0]C[-7]",
+            "$t": "TRUE"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C14"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "N5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "011908ai"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C14"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "14",
+            "inputValue": "\u003dCONCATENATE(R[0]C26,R[0]C28,R[0]C24,\"ai\")",
+            "$t": "011908ai"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C15"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "O5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "https://nsipplswezey.github.io/earthly-questions/alg1/algone12019/Q8.png"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C15"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "15",
+            "inputValue": "https://nsipplswezey.github.io/earthly-questions/alg1/algone12019/Q8.png",
+            "$t": "https://nsipplswezey.github.io/earthly-questions/alg1/algone12019/Q8.png"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C16"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "P5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "https:"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C16"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "16",
+            "inputValue": "\u003dSPLIT(R[0]C[-1],\"/\")",
+            "$t": "https:"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C17"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Q5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "nsipplswezey.github.io"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C17"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "17",
+            "inputValue": "nsipplswezey.github.io",
+            "$t": "nsipplswezey.github.io"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C18"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "R5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "earthly-questions"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C18"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "18",
+            "inputValue": "earthly-questions",
+            "$t": "earthly-questions"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C19"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "S5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "alg1"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C19"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "19",
+            "inputValue": "alg1",
+            "$t": "alg1"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C20"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "T5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "algone12019"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C20"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "20",
+            "inputValue": "algone12019",
+            "$t": "algone12019"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C21"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "U5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q8.png"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C21"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "21",
+            "inputValue": "Q8.png",
+            "$t": "Q8.png"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C22"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "V5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "12019"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C22"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "22",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\"algone\")",
+            "numericValue": "12019.0",
+            "$t": "12019"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C23"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "W5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "Q8"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C23"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "23",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\".png\")",
+            "$t": "Q8"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C24"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "X5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "08"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C24"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "24",
+            "inputValue": "08",
+            "$t": "08"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C25"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Y5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "08"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C25"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "25",
+            "inputValue": "\u003dSPLIT(R[0]C[-2],\"Q\")",
+            "numericValue": "8.0",
+            "$t": "08"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C26"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Z5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C26"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "26",
+            "inputValue": "01",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C27"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AA5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "01"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C27"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "27",
+            "inputValue": "\u003dSPLIT(R[0]C[-5],\"20\")",
+            "numericValue": "1.0",
+            "$t": "01"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C28"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AB5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "19"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C28"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "28",
+            "inputValue": "19",
+            "numericValue": "19.0",
+            "$t": "19"
+        }
+    },
+    {
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C29"
+        },
+        "updated": {
+            "$t": "2020-08-18T22:11:50.616Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#cell"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "AC5"
+        },
+        "content": {
+            "type": "text",
+            "$t": "19"
+        },
+        "link": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/cells/1OsJew9ETaCP5te3wThvg31BmqSZZOIwA8ED92ME3_Fc/1/public/full/R5C29"
+            }
+        ],
+        "gs$cell": {
+            "row": "5",
+            "col": "29",
+            "inputValue": "19",
+            "numericValue": "19.0",
+            "$t": "19"
+        }
+    }
+]
