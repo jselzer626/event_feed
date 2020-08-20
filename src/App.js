@@ -13,6 +13,8 @@ const headers = mockData.filter((element) => {
   } 
 })
 
+console.log(headers)
+
 const q1 = mockData.filter((element) => {
   if (element.gs$cell.row === '2') {
     return true
@@ -43,8 +45,37 @@ const q5 = mockData.filter((element) => {
   } 
 })
 
-
 const questionSet = [q1, q2, q3, q4, q5]
+
+let allQuestionsObj = mockData.reduce( (fullQuestionSet,question,index) => {
+
+  if(fullQuestionSet[question.gs$cell.row]){
+    fullQuestionSet[question.gs$cell.row].push(question)
+  } else {
+    fullQuestionSet[question.gs$cell.row] = []
+    fullQuestionSet[question.gs$cell.row].push(question)
+  }
+  return fullQuestionSet
+},{})
+
+let allQuestionsArray = mockData.reduce( (fullQuestionSet,question,index) => {
+
+  //filter out row 1
+  if(question.gs$cell.row === '1'){
+    return fullQuestionSet
+  }
+  
+  if(fullQuestionSet[question.gs$cell.row]){
+    fullQuestionSet[question.gs$cell.row].push(question)
+  } else {
+    fullQuestionSet[question.gs$cell.row] = []
+    fullQuestionSet[question.gs$cell.row].push(question)
+  }
+  return fullQuestionSet
+
+},[])
+
+console.log(allQuestionsArray)
 
 function App() {
 
@@ -265,24 +296,63 @@ function App() {
   const renderQuestions = (questionSet) => {
       return (
         questionSet.map((element) => {
-            let questionNum, questionAns, questionImg
+            let questionNum, questionAns, questionImg, points, category, year, month, examQNum
             element.map((cell) => {
                 if (cell.gs$cell.col === '3'){
-                  questionNum = cell.gs$cell.inputValue}
-                if (cell.gs$cell.col ==='8')
+                  questionNum = cell.gs$cell.inputValue
+                }
+                if (cell.gs$cell.col ==='8'){
                   questionAns = cell.gs$cell.inputValue
-                if (cell.gs$cell.col === '15')
+                }
+                if (cell.gs$cell.col === '15'){
                   questionImg = cell.gs$cell.inputValue
+                }
+
+                if (cell.gs$cell.col === '9'){
+                  points = cell.gs$cell.inputValue
+                }
+
+                if (cell.gs$cell.col === '11'){
+                  category = cell.gs$cell.inputValue
+                }
+
+                if(questionNum){
+                  month = questionNum.substring(0,2)
+                  year = questionNum.substring(2,4)
+                  examQNum = questionNum.substring(4,6)
+                }
+                  
             })
+
             return (
-              <div>
+              <div className='ui segment' key={questionNum}>
                 <p>
-                  {questionNum}
+                  ID: {questionNum}
+                </p>
+
+                <p>
+                  Exam Year: {year}
+                </p>
+
+                <p>
+                  Exam Month: {month}
+                </p>
+
+                <p>
+                  Exam Question #: {examQNum}
+                </p>
+
+                <p>
+                  Answer: {questionAns}
                 </p>
                 <p>
-                  {questionAns}
+                  Points: {points}
                 </p>
-                <img className = "ui image small"
+                <p>
+                  Topic: {category}
+                </p>
+                
+                <img className="ui fluid image"
                   src={questionImg}
                 />
               </div>
@@ -305,6 +375,7 @@ function App() {
         {renderFeed(currentTest)}
         {renderTest(currentTest)}
         {renderQuestions(questionSet)}
+        {renderQuestions(allQuestionsArray)}
       </div>
     </div>
   );
