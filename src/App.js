@@ -6,44 +6,45 @@ import Science from './images/Science.png'
 import sampleData from './tests.json'
 
 import mockData from './mockQuestions.json';
-console.log(mockData)
 
-mockData.length
-
-let questions = {}
-
-//loop 5 times
-//within each loop, iterate 25 times
-//within each, check value of .gs$cell.inputValue
-
-//How do we know which column we're in?
-
-mockData.forEach( (element, index) => {
-
-  if(element.gs$cell.col === 3){ //reference
-
-    if(questions[element.gs$cell.row]){
-      
-      questions[element.gs$cell.row][reference] = questions[element.gs$cell.inputValue]
-
-    } else {
-      questions[element.gs$cell.row] = {}
-    }
+const headers = mockData.filter((element) => {
+  if (element.gs$cell.row === '1') {
+    return true
   } 
-
-  if(element.gs$cell.col === 8){ //ans
-
-  }
-  
-  if(element.gs$cell.col === 15){ //image url
-
-  }
-
-  if(element.gs$cell.col === 12){ //identifier
-
-  }
-
 })
+
+const q1 = mockData.filter((element) => {
+  if (element.gs$cell.row === '2') {
+    return true
+  } 
+})
+
+const q2 = mockData.filter((element) => {
+  if (element.gs$cell.row === '3') {
+    return true
+  } 
+})
+
+const q3 = mockData.filter((element) => {
+  if (element.gs$cell.row === '4') {
+    return true
+  } 
+})
+
+const q4 = mockData.filter((element) => {
+  if (element.gs$cell.row === '5') {
+    return true
+  } 
+})
+
+const q5 = mockData.filter((element) => {
+  if (element.gs$cell.row === '6') {
+    return true
+  } 
+})
+
+
+const questionSet = [q1, q2, q3, q4, q5]
 
 function App() {
 
@@ -261,7 +262,34 @@ function App() {
 
   }
 
-
+  const renderQuestions = (questionSet) => {
+      return (
+        questionSet.map((element) => {
+            let questionNum, questionAns, questionImg
+            element.map((cell) => {
+                if (cell.gs$cell.col === '3'){
+                  questionNum = cell.gs$cell.inputValue}
+                if (cell.gs$cell.col ==='8')
+                  questionAns = cell.gs$cell.inputValue
+                if (cell.gs$cell.col === '15')
+                  questionImg = cell.gs$cell.inputValue
+            })
+            return (
+              <div>
+                <p>
+                  {questionNum}
+                </p>
+                <p>
+                  {questionAns}
+                </p>
+                <img className = "ui image small"
+                  src={questionImg}
+                />
+              </div>
+            )
+        })
+      )
+  }
 
   return (
     <div className="App">
@@ -276,6 +304,7 @@ function App() {
         </div>
         {renderFeed(currentTest)}
         {renderTest(currentTest)}
+        {renderQuestions(questionSet)}
       </div>
     </div>
   );
