@@ -1,63 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './App.css'
-import English from './images/English.png'
-import MathImg from './images/Math.png'
-import Science from './images/Science.png'
+
 import ny from './images/ny.png'
-import sampleData from './tests.json'
 
 import mockData from './mockQuestions.json';
-
-const headers = mockData.filter((element) => {
-  if (element.gs$cell.row === '1') {
-    return true
-  }
-})
-
-console.log(headers)
-
-const q1 = mockData.filter((element) => {
-  if (element.gs$cell.row === '2') {
-    return true
-  }
-})
-
-const q2 = mockData.filter((element) => {
-  if (element.gs$cell.row === '3') {
-    return true
-  }
-})
-
-const q3 = mockData.filter((element) => {
-  if (element.gs$cell.row === '4') {
-    return true
-  }
-})
-
-const q4 = mockData.filter((element) => {
-  if (element.gs$cell.row === '5') {
-    return true
-  }
-})
-
-const q5 = mockData.filter((element) => {
-  if (element.gs$cell.row === '6') {
-    return true
-  }
-})
-
-const questionSet = [q1, q2, q3, q4, q5]
-
-let allQuestionsObj = mockData.reduce((fullQuestionSet, question, index) => {
-
-  if (fullQuestionSet[question.gs$cell.row]) {
-    fullQuestionSet[question.gs$cell.row].push(question)
-  } else {
-    fullQuestionSet[question.gs$cell.row] = []
-    fullQuestionSet[question.gs$cell.row].push(question)
-  }
-  return fullQuestionSet
-}, {})
 
 let allQuestionsArray = mockData.reduce((fullQuestionSet, question, index) => {
 
@@ -76,32 +22,14 @@ let allQuestionsArray = mockData.reduce((fullQuestionSet, question, index) => {
 
 }, [])
 
-console.log(allQuestionsArray)
-
 function App() {
 
-  const testSubjects = ['English', 'Math', 'Science']
-  const years = ['2017', '2018', '2019', '2020']
   const categories = ['Top Stories', 'Trending', 'Best Of']
 
   const [displayChunk, setDisplayChunk] = useState({ Trending: [0, 0], Random: [0, 0], bySubject: [0, 0], byYear: [0, 0] })
-  const [allTests, setAllTests] = useState(sampleData.allTests)
   const [currentTest, setCurrentTest] = useState(null)
-  const [displayedTests, setDisplayedTests] = useState([])
   const [selectedYear, setSelectedYear] = useState('2020')
   const [selectedSubject, setSelectedSubject] = useState('English')
-  const [questionStep, setQuestionStep] = useState(5)
-
-  const imageMatcher = name => {
-    if (name === "Science") return Science
-    else if (name === "Math") return MathImg
-    else return English
-  }
-
-  const exitTest = () => {
-    setCurrentTest(null)
-    setQuestionStep(5)
-  }
 
   const findTest = (list, displayed) => {
 
@@ -113,14 +41,6 @@ function App() {
 
     displayed.push(list[randomInt].id)
     return list[randomInt]
-  }
-
-  const renderTestQuestion = question => {
-    return (
-      <div className="testQuestion">
-        {question}
-      </div>
-    )
   }
 
   const loadMoreContent = category => {
@@ -164,8 +84,6 @@ function App() {
   }
 
   const renderArticleCard = (articleContent,index) => {
-    console.log("Article Card Data")
-    console.log(articleContent)
 
     let questionNum, questionAns, questionImg, points, category, year, month, examQNum
 
@@ -196,13 +114,11 @@ function App() {
 
     })
 
-    let subject = []
-
-    let verb = []
-
-    let object = []
-
-    let result = []
+    //TODO: Generalize a sufficient headline maker
+    //365 days a year
+    //4 top news
+    //6 trending
+    //~3,650 Titles/Generated Articles
 
     let titles = [
       `New York math teacher reveals secret trick for how to pass the 2021 Algebra I regents exam`,
@@ -233,36 +149,6 @@ function App() {
       </div>)
 
 
-  }
-
-  const renderTest = currentTest => {
-    if (!currentTest)
-      return
-
-    return (
-      <div>
-        <div>
-          <h1>{currentTest.title}</h1>
-          <button className="ui massive fluid button orange"
-            onClick={() => exitTest()}
-          >
-            Go Back</button>
-        </div>
-        <div>
-          {currentTest.questions.map((question, index) => {
-            if (index < questionStep) {
-              return renderTestQuestion(question)
-            }
-          })}
-          <button className="ui massive fluid button green"
-            onClick={() => {
-              let newStep = questionStep
-              setQuestionStep(newStep += 5)
-            }}
-          >Keep Going!</button>
-        </div>
-      </div>
-    )
   }
 
   //got hella returns here
@@ -370,16 +256,10 @@ function App() {
 
     if (currentTest)
       return
-
-    
-
     //array contains some empty elements
     // https://stackoverflow.com/questions/33802875/get-number-of-non-empty-elements-from-nested-arrays
     allQuestions = allQuestions.filter(Boolean)
     let questionCount = allQuestions.length
-    console.log(allQuestions.length)
-    console.log(allQuestions)
-    console.log(questionCount)
 
     let random1 = Math.floor(Math.random() * questionCount)
     let random2 = Math.floor(Math.random() * questionCount)
@@ -421,74 +301,6 @@ function App() {
     })
   }
 
-  const renderQuestions = (questionSet) => {
-    return (
-      questionSet.map((element) => {
-        let questionNum, questionAns, questionImg, points, category, year, month, examQNum
-        element.map((cell) => {
-          if (cell.gs$cell.col === '3') {
-            questionNum = cell.gs$cell.inputValue
-          }
-          if (cell.gs$cell.col === '8') {
-            questionAns = cell.gs$cell.inputValue
-          }
-          if (cell.gs$cell.col === '15') {
-            questionImg = cell.gs$cell.inputValue
-          }
-
-          if (cell.gs$cell.col === '9') {
-            points = cell.gs$cell.inputValue
-          }
-
-          if (cell.gs$cell.col === '11') {
-            category = cell.gs$cell.inputValue
-          }
-
-          if (questionNum) {
-            month = questionNum.substring(0, 2)
-            year = questionNum.substring(2, 4)
-            examQNum = questionNum.substring(4, 6)
-          }
-
-        })
-
-        return (
-          <div className='ui segment' key={questionNum}>
-            <p>
-              ID: {questionNum}
-            </p>
-
-            <p>
-              Exam Year: {year}
-            </p>
-
-            <p>
-              Exam Month: {month}
-            </p>
-
-            <p>
-              Exam Question #: {examQNum}
-            </p>
-
-            <p>
-              Answer: {questionAns}
-            </p>
-            <p>
-              Points: {points}
-            </p>
-            <p>
-              Topic: {category}
-            </p>
-
-            <img className="ui fluid image"
-              src={questionImg}
-            />
-          </div>
-        )
-      })
-    )
-  }
-
   return (
     <div className="App">
       <div className="ui raised very padded text container segment">
@@ -499,11 +311,7 @@ function App() {
         </div>
 
         <div class="ui hidden divider"></div>
-
         {renderFeed2(currentTest,allQuestionsArray)}
-        {/* {renderTest(currentTest)} */}
-        {/* {renderQuestions(questionSet)} */}
-        {renderQuestions(allQuestionsArray)}
       </div>
     </div>
   );
